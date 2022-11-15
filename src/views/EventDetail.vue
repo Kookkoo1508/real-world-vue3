@@ -7,24 +7,16 @@
 </template>
 
 <script>
-import EventService from "@/services/EventService";
+import { mapState } from "vuex";
 
 export default {
   props: ["id"],
   data() {
-    return {
-      event: null,
-    };
+    return {};
   },
   created() {
-    EventService.getEvent(this.id)
-      .then((response) => {
-        this.event = response.data;
-        // console.log(this.$route.params.id);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    this.$store.dispatch("fetchEventById", this.id);
   },
+  computed: mapState(["event"]),
 };
 </script>

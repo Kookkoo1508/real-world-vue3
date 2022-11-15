@@ -8,7 +8,7 @@
 <script>
 // @ is an alias to /src
 import EventCard from "@/components/EventCard.vue";
-import EventService from "@/services/EventService.js";
+import { mapState } from "vuex";
 
 export default {
   name: "HomeView",
@@ -16,20 +16,15 @@ export default {
     EventCard,
   },
   data() {
-    return {
-      events: null,
-    };
+    return {};
   },
   created() {
-    EventService.getEvents()
-      .then((response) => {
-        this.events = response.data;
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    this.$store.dispatch("fetchEvent");
   },
   methods: {},
+  computed: {
+    ...mapState(["events"]),
+  },
 };
 </script>
 

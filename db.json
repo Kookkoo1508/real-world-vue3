@@ -1,0 +1,232 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Beach Cleanup",
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Adam Jahr",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Park Cleanup",
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Adam Jahr",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pet Adoption Day",
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Gregg Pollack",
+      "category": "animal welfare",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 1585317,
+      "category": "housing",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Renovate",
+      "description": "Renovate",
+      "location": "Some",
+      "date": "2022-11-15T04:34:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 566021,
+      "category": "education",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Learning",
+      "description": "School",
+      "location": "",
+      "date": "2022-11-15T04:37:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 7590826,
+      "category": "housing",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Sleep",
+      "description": "At home",
+      "location": "hone",
+      "date": "2022-11-15T04:41:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 886840,
+      "category": "community",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Meeting at ThaiP",
+      "description": "",
+      "location": "ThaiPBS",
+      "date": "2022-11-19T04:46:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 1978368,
+      "category": "food",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Dinner",
+      "description": "Dinner",
+      "location": "hotel",
+      "date": "2022-11-15T04:49:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 6716142,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Animal",
+      "description": "",
+      "location": "Zoo",
+      "date": "2022-11-15T04:54:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 8608672,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "ANIIIII",
+      "description": "",
+      "location": "",
+      "date": "2022-11-15T04:58:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 5159435,
+      "category": "nature",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Coolman",
+      "description": "",
+      "location": "Home",
+      "date": "2022-11-16T05:00:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 4745938,
+      "category": "nature",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Cut The tree",
+      "description": "",
+      "location": "forest",
+      "date": "2022-11-17T05:01:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 6398082,
+      "category": "housing",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Fixing House",
+      "description": "",
+      "location": "House",
+      "date": "2022-11-20T05:03:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 3613773,
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "2022-11-24T14:25:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 8076185,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Korach Zoo",
+      "description": "Korach Zoo",
+      "location": "Korat",
+      "date": "2022-11-24T14:25:00.000Z",
+      "attendees": []
+    }
+  ]
+}
