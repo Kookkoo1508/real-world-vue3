@@ -227,6 +227,32 @@
       "location": "Korat",
       "date": "2022-11-24T14:25:00.000Z",
       "attendees": []
+    },
+    {
+      "id": 7274663,
+      "category": "education",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkoo"
+      },
+      "title": "Learning",
+      "description": "Learning",
+      "location": "School",
+      "date": "2022-11-17T03:34:00.000Z",
+      "attendees": []
+    },
+    {
+      "id": 1679548,
+      "category": "nature",
+      "organizer": {
+        "id": "123",
+        "name": "Kookkookrab"
+      },
+      "title": "Return to the nature",
+      "description": "Return to the nature",
+      "location": "",
+      "date": "2022-11-18T06:13:00.000Z",
+      "attendees": []
     }
   ]
 }

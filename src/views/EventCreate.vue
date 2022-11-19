@@ -66,11 +66,14 @@ export default {
           this.createFreshEvent();
         })
         .catch((e) => {
-          console.log(e);
+          this.$router.push({
+            name: "ErrorView",
+            params: { error: e },
+          });
         });
     },
     createFreshEvent() {
-      const user = this.$store.state.user;
+      const user = this.$store.state.user.user;
       const id = Math.floor(Math.random() * 10000000);
       return {
         id: id,
