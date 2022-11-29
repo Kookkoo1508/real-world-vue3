@@ -43,7 +43,7 @@ export default {
     next((vm) => {
       //We can not use this in RouterEnter becasue the component not load
       vm.$store.dispatch("fetchEvent", {
-        perPage: 2,
+        perPage: 3,
         page: parseInt(routeTo.query.page) || 1,
       });
     }).catch((e) => {
@@ -57,7 +57,7 @@ export default {
     return this.$store //Return Promise to vue router knows to wait on the API call before loading
       .dispatch("fetchEvent", {
         //  (Solved Problem is NProgress done before EventCard load
-        perPage: 2,
+        perPage: 3,
         page: this.page || 1,
       })
       .catch((e) => {
